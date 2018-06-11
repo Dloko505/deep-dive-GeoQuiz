@@ -66,7 +66,7 @@ public class QuizActivity extends AppCompatActivity {
       }
     });
 
-    mPrevButton = (ImageButton) findViewById(R.id.prev_button);
+    mPrevButton = (Button) findViewById(R.id.prev_button);
     mPrevButton.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
@@ -75,7 +75,7 @@ public class QuizActivity extends AppCompatActivity {
       }
     });
 
-    mNextButton = (ImageButton) findViewById(R.id.next_button);
+    mNextButton = (Button) findViewById(R.id.next_button);
     mNextButton.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
